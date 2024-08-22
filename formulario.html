@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <a href="./index.html">Voltar</a>
+    <h1>Cadastro de Usuário</h1>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text"> <br> <br>
+        <label for="telefone">Telefone:</label>
+        <input type="number"> <br> <br>
+        <label for="email">Email:</label>
+        <input type="email"> <br> <br>
+        <label for="senha">Senha:</label>
+        <input type="password">
+        <br> <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino">
+        <label for="feminino">Feminino</label>
+        <br> <br>
+        <label for="uf">UF</label>
+        <select name="uf" id="uf">
+            <option value="DF">DF</option>
+        </select>
+        <br><br>
+        <label for="Hobbies">Hobbies</label>
+        <div style="border: 1px black solid; padding: 10px;">
+            <input type="checkbox" value="futebol" name="futebol" id="futebol">
+            <label for="futebol">Futebol</label>
+            <input type="checkbox" value="xadrez" name="xadrez" id="xadrez">
+            <label for="xadrez">Xadrez</label>
+            <input type="checkbox" value="esportes" name="esportes" id="esportes">
+            <label for="esportes">Esportes</label>
+            <input type="checkbox" value="musica" name="musica" id="musica">
+            <label for="musica">Musica</label>
+            <input type="checkbox" value="cinema" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" value="leitura" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div> <br><br>
+        <label for="obs">Observação</label>
+        <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+        <br><br>
+        <a href="index.html"> <input type="button" value="Voltar"></a>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Salvar">
+
+    </form>
+</body>
+</html>
